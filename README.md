@@ -51,6 +51,32 @@ This project is a backend application built using Java and Spring Boot following
 * Authentication & Authorization
 * Deployment
 
+## System Architecture
+
+Client → API Gateway → Eureka Server → Product Service → PostgreSQL
+
+## Features
+
+- Spring Cloud Gateway routing
+- Service discovery using Eureka Server
+- REST APIs for Product Service
+- Load-balanced microservice communication
+- PostgreSQL integration
+
+  ## API Endpoints
+
+GET /products → Fetch all products
+
+## How to Run
+
+1. Start Eureka Server
+2. Start Product Service
+3. Start API Gateway
+4. Open http://localhost:8080/products
+
+Tech Stack Badge:
+Spring Boot | Spring Cloud | Eureka | API Gateway | PostgreSQL | Maven
+
 ## Author
 
 Hephzibah Aluvala
